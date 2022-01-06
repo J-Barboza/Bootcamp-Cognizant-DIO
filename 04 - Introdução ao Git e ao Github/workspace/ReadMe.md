@@ -1,4 +1,4 @@
-# Livro de Receitas :yum:
+# Livro de Receitas :man_cook:
 
 ### Doces
 - Bolo de Fuba
