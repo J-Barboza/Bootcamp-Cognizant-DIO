@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Francisco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-06 08:32:12 "/>
+        <attribute name="created" value="RnJhbmNpc2NvO05PVEVBQ0VSOzIwMjItMDEtMDY7IjA4OjI2OjI1ICI7MjcwNA=="/>
+        <attribute name="edited" value="RnJhbmNpc2NvO05PVEVBQ0VSOzIwMjItMDEtMDY7IjA4OjMyOjEyICI7MzsyODA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="c" expression="3"/>
+            <output expression="&quot;A &#233; maior que B: &quot;" newline="False"/>
+            <output expression="a&gt;b" newline="True"/>
+            <output expression="&quot;A &#233; menor ou igual a B: &quot;" newline="False"/>
+            <output expression="a&lt;=b" newline="True"/>
+            <output expression="&quot;C &#233; maior que A + B: &quot;" newline="False"/>
+            <output expression="C&gt;(a+b)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

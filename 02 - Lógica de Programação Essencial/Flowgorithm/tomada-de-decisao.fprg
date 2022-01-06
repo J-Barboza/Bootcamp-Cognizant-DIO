@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Francisco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-06 08:40:12 "/>
+        <attribute name="created" value="RnJhbmNpc2NvO05PVEVBQ0VSOzIwMjItMDEtMDY7IjA4OjI2OjI1ICI7MjcwNA=="/>
+        <attribute name="edited" value="RnJhbmNpc2NvO05PVEVBQ0VSOzIwMjItMDEtMDY7IjA4OjQwOjEyICI7MjsyODA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <output expression="&quot;Informe o seu nome: &quot;" newline="False"/>
+            <input variable="cliente"/>
+            <output expression="&quot;Voc&#234; tem cart&#227;o de cr&#233;dito? &quot;" newline="False"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <output expression="&quot;Digite o n&#250;mero do cart&#227;o: &quot;" newline="False"/>
+                    <input variable="numero"/>
+                    <output expression="&quot;Cart&#227;o cadastrado, compras liberadas!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmetne s&#243; realizamos vendas por cart&#227;o de cr&#233;dito, fa&#231;a um cart&#227;o gratis conosco e aproveite as ofertas j&#225;!!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

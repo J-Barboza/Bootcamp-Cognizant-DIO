@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Francisco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-06 08:47:14 "/>
+        <attribute name="created" value="RnJhbmNpc2NvO05PVEVBQ0VSOzIwMjItMDEtMDY7IjA4OjQxOjA0ICI7MjY5OA=="/>
+        <attribute name="edited" value="RnJhbmNpc2NvO05PVEVBQ0VSOzIwMjItMDEtMDY7IjA4OjQ3OjE0ICI7MjsyODE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, total" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota3)/4"/>
+            <assign variable="total" expression="nota1+nota2+nota3+nota4"/>
+            <output expression="&quot;Sua m&#233;dia: &quot;" newline="False"/>
+            <output expression="media" newline="True"/>
+            <output expression="&quot;Total das notas: &quot;" newline="False"/>
+            <output expression="total" newline="True"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns! Voc&#234; foi aprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voc&#234; foi reprovado, bem vindo a recupera&#231;&#227;o.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
