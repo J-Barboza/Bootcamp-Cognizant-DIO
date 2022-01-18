@@ -11,7 +11,17 @@
 ### Commit's realizados
 
 <ol reversed>
-   <li value="14">Inserido os Projetos, Qualidade de Software, Consultas e Modelagem SQL Server</li>
+   <li value="15">Boas práticas em bancos relacionais com SQL Server
+      <ol>
+         <li>Criado as tabelas PRODUTOS, LOJAS E ESTOQUES</li>
+         <li>Criado suas respectivas PRIMERY KEY</li>
+         <li>Criado as FOREIGN KEYS</li>
+         <li>Inserido PRODUTOS, LOJAS E ESTOQUES</li>
+         <li>Criado os Relacionamentos</li>
+         <li>Selecionado os produtos da respectivas Lojas e seus Estoques</li>
+      </ol>
+   </li>
+   <li value="14">Inserido os Projetos, Qualidade de Software, Consultas e Modelagem SQL Server
       <ol>
          <li>Introdução a Qualidade de Software</li>
          <li>SQL SERVER - Criando suas primeiras consultas</li>
@@ -20,7 +30,7 @@
       </ol>
    </li>
    <br>
-   <li value="13">Lista completa das mudanças nete commit estão no arquivo Readme.md na raiz do projeto</li>
+   <li value="13">Lista completa das mudanças nete commit estão no arquivo Readme.md na raiz do projeto
       <ol>
          <li>Boas-vindas</li>
          <li>Lógica de Programação Essencial/Readme.md</li>
