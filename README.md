@@ -11,7 +11,16 @@
 ### Commit's realizados
 
 <ol reversed>
-   <li value="13">Lista completa das mudanças nete commit estão no arquivo Readme.md na raiz do projeto
+   <li value="14">Inserido os Projetos, Qualidade de Software, Consultas e Modelagem SQL Server</li>
+      <ol>
+         <li>Introdução a Qualidade de Software</li>
+         <li>SQL SERVER - Criando suas primeiras consultas</li>
+         <li>Modelando um banco de dados na prática com SQL SERVER</li>
+         <li>Foram escluidos os certificados, não faz parte do contexto desse</li>
+      </ol>
+   </li>
+   <br>
+   <li value="13">Lista completa das mudanças nete commit estão no arquivo Readme.md na raiz do projeto</li>
       <ol>
          <li>Boas-vindas</li>
          <li>Lógica de Programação Essencial/Readme.md</li>
