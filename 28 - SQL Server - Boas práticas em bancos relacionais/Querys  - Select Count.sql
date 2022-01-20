@@ -1,0 +1,5 @@
+USE BoasPraticas
+GO
+
+SELECT COUNT(*) FROM PRODUTOS
+go

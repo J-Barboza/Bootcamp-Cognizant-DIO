@@ -7,10 +7,17 @@
 - Dentro das pasta estão anotações relevantes e exercícios.
 - Os certificados estão na pasta Certificados para facilitar a visualização sem a necessidade de entra pasta por pasta.
 
-
 ### Commit's realizados
 
 <ol reversed>
+   <li value="16">Introdução Microserviços, Teste com Java usando JUnit4 e Correções
+      <ol>
+         <li>Inserido arquivos Readme.md para as mentorias, identificando o mentos e apresentadores<li>
+         <li>Inserido o Readme.md do curso Introdução a Microserviços<li>
+         <li>Inserido o projeto de Teste com Java<li>
+         <li>Inserido querys da aula de Boas prática em DB com SQL Server<li>
+      </ol>
+   </li>
    <li value="15">Boas práticas em bancos relacionais com SQL Server
       <ol>
          <li>Criado as tabelas PRODUTOS, LOJAS E ESTOQUES</li>
