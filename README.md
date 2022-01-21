@@ -10,6 +10,14 @@
 ### Commit's realizados
 
 <ol reversed>
+   <li value="18">Introdução ao framework Spring Boot e atualizações do Readme.md
+      <ol>
+         <li>Informações do cursos</li>
+         <li>Links do Github dos professos</li>
+         <li>Exercícios aplicados durante o curso</li>
+         <li>Update de arquivos Readme.md da raiz e de Boas Práticas DB relacionais</li>
+      </ol>
+   </li>
    <li value="17">Correção de um erro de digitação no arquivo Readme.md raiz</li>
    <li value="16">Introdução Microserviços, Teste com Java usando JUnit4 e Correções
       <ol>
