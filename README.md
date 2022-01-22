@@ -10,6 +10,11 @@
 ### Commit's realizados
 
 <ol reversed>
+   <li value="19">Desafio Java - Cognizant Developer - 02 
+      <ol>
+         <li>Os resultados não foram postados, para não prejudir nenhum estudante</li>
+      </ol>
+   </li>
    <li value="18">Introdução ao framework Spring Boot e atualizações do Readme.md
       <ol>
          <li>Informações do cursos</li>
