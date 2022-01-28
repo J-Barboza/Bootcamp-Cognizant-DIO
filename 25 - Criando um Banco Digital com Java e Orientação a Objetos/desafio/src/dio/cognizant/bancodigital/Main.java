@@ -1,15 +1,22 @@
 package dio.cognizant.bancodigital;
 
+import java.io.*;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
+        CadastroCliente.lerClienteGravarArquivo();
+
+    }
+}
+/*
         Cliente cliente = new Cliente();
 
         //cliente.adicionaCliente("Barboza");
 
         cliente.setNome("Barboza");
-        cliente.setDocumento("04663471897");
+        cliente.setDocumento("");
         Pessoa.TipoPessoa pessoa = cliente.getTipoPessoa();
 
         Conta cc = new ContaCorrente(cliente);
@@ -25,3 +32,4 @@ public class Main {
         poupanca.imprimirExtrato();
     }
 }
+*/

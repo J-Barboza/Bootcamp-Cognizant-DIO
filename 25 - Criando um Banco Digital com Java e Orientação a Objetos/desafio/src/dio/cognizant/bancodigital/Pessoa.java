@@ -23,17 +23,26 @@ public class Pessoa {
     }
 
     public void setDocumento(String documento) {
-        if (documento == null || documento.isEmpty()){
-            throw new RuntimeException("Documento deve conter informação correta.");
+
+        try {
+            if (documento == null || documento.isEmpty()) {
+                throw new NullPointerException("Documento deve conter informação correta.");
+            }
+
+            if (documento.length() == TAMANHO_CPF) {
+                setDocumento(documento, tipoPessoa.FISICA);
+            } else if (documento.length() == TAMANHO_CNPJ) {
+                setDocumento(documento, tipoPessoa.JURIDICA);
+
+//            } else {
+//                throw new RuntimeException("Tamanho de documento informado é inválido.");
+//            }
+            this.documento = documento;
+            }
         }
-        if (documento.length() == TAMANHO_CPF){
-            setDocumento(documento, tipoPessoa.FISICA);
-        }else if (documento.length() == TAMANHO_CNPJ){
-            setDocumento(documento, tipoPessoa.JURIDICA);
-        } else {
-            throw new RuntimeException("Tamanho de documento informado é inválido.");
+        catch (IllegalStateException | NullPointerException ex){
+            System.out.println("Documento inválido!!!");
         }
-        this.documento = documento;
     }
 
     private void setDocumento(String documento, TipoPessoa tipoPessoa) {
